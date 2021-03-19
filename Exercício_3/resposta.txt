@@ -1,0 +1,13 @@
+O que cada trecho de código faz?
+
+a) Suponha que a seguinte chamada de método esteja localizada em um método “ganhos()” sobrescrito em uma subclasse: super.ganhos();
+
+Resposta: Esse código executas as intstruções do método da superclasse.
+
+b) Suponha que a seguinte linha de código apareça antes de uma declaração de método: @Override
+
+Resposta: Informa ao compilador que o método deve sobrescrever um método com o mesmo nome na superclasse.
+
+c) Suponha que a seguinte linha de código apareça como a primeira instrução no corpo de um construtor: super(primeiroArgumento, segundoArgumento);
+
+Resposta: Esse código executa o construtor correspondente da superclasse.
