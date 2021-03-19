@@ -1,0 +1,17 @@
+Determine se cada uma das seguintes sentenças é verdadeira ou falsa. Se falsa, explique por quê.
+
+a) Os construtores de superclasse não são herdados por subclasses.
+
+Resposta: Verdadeira.
+
+b) Um relacionamento “tem um” é implementado via herança.
+
+Resposta: Falsa. Um relacionamento "é um" é implementado via herança, um relacionamento "tem um" é implementado via composição.
+
+c) Uma classe Carro tem um relacionamento “é um” com as classes Volante e Freios.
+
+Resposta: Falsa. Uma classe carro tem um relacionamento "tem um" com as classes Volante e Freios. Ela possui em relacionamento "é um" com a classe Veiculo.
+
+d) Quando uma subclasse redefine um método de superclasse utilizando a mesma assinatura, diz-se que a subclasse sobrecarrega esse método de superclasse.
+
+Resposta: Falsa. Isso é chamado de sobrescrição. Um método sobrecarregado possui o mesmo nome, mas assinatura diferente.
