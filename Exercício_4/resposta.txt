@@ -1,0 +1,21 @@
+Escreva uma linha do código que realiza cada uma das seguintes tarefas:
+
+a) Especifique que a classe OperadorDeCaixa é herdada da classe Funcionario.
+
+Resposta: public class OperadorDeCaixa extends Funcionario{}
+
+b) Chame o método toString da superclasse Funcionario a partir do método toString da subclasse OperadorDeCaixa.
+
+Resposta: 
+
+pubic String toString(){
+  return super.toString();
+}
+
+c) Chame o construtor da superclasse Funcionario a partir do construtor da subclasse OperadorDeCaixa — suponha que o construtor da superclasse receba três Strings que representam o primeiro nome, o sobrenome e o número de CPF.
+
+Resposta: 
+
+public OperadorDeCaixa(String nome, String sobrenome, String cpf){
+  super(nome, sobrenome, cpf);
+}
